@@ -1,4 +1,4 @@
-# Observations about course of deploy automation with terraform, aws and docker
+# Observations about the course of deploy automation with terraform, aws and docker
 
 ## Chapters
 
