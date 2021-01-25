@@ -1,31 +1,33 @@
 # Observations about course of deploy automation with terraform, aws and docker
 
-## Introduction
+## Chapters
 
-## Setup dev enviroment
+[Introduction](chapters/introduction.md)
 
-## Setup AWS
+[Setup dev enviroment](chapters/dev-enviroment.md)
 
-## Setup NGINX Proxy
+[Setup AWS](chapters/setup-aws.md)
 
-## Prepare recipe app project for development
+[Setup NGINX Proxy](chapters/nginx-proxy.md)
 
-## Setup Terraform
+[Prepare recipe app project for development](chapters/app-project)
 
-## Setup Gitlab CI/CD
+[Setup Terraform](chapters/setup-terraform.md)
 
-## Configure Network
+[Setup Gitlab CI/CD](chapters/setup-gitlab.md)
 
-## Create database
+[Configure Network](chapters/configure-network.md)
 
-## Update bastion
+[Create database](chapters/create-database.md)
 
-## Setup Elastic Container Service (ECS)
+[Update bastion](chapters/update-bastiion.md)
 
-## Using bastion
+[Setup Elastic Container Service (ECS)](chapters/ecs.md)
 
-## Handle media uploads
+[Using bastion](chapters/using-bastion.md)
 
-## Setup custom DNS
+[Handle media uploads](chapters/uploads.md)
 
-## Summary
+[Setup custom DNS](chapters/custom-dns.md)
+
+[Summary](chapters/summary.dm)
