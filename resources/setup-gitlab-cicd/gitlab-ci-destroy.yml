@@ -1,0 +1,24 @@
+# ... existing code ...
+
+Staging Destroy:
+  stage: Destroy
+  script:
+    - cd deploy/
+    - terraform init
+    - terraform workspace select staging
+    - terraform destroy -auto-approve
+  rules:
+    - if: '$CI_COMMIT_BRANCH =~ /^(master|production)$/'
+      when: manual
+
+Production Destroy:
+  stage: Destroy
+  script:
+    - cd deploy/
+    - terraform init
+    - terraform workspace select production
+    - terraform destroy -auto-approve
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "production"'
+      when: manual
+

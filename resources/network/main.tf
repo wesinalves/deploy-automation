@@ -1,0 +1,3 @@
+# ... existing code ...
+
+data "aws_region" "current" {}
