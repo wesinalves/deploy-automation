@@ -1,0 +1,10 @@
+"rds:DeleteDBSubnetGroup",
+"rds:CreateDBInstance",
+"rds:CreateDBSubnetGroup",
+"rds:DeleteDBInstance",
+"rds:DescribeDBSubnetGroups",
+"rds:DescribeDBInstances",
+"rds:ListTagsForResource",
+"rds:ModifyDBInstance",
+"iam:CreateServiceLinkedRole",
+"rds:AddTagsToResource"
