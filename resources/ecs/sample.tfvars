@@ -1,0 +1,3 @@
+# ... existing code ...
+
+django_secret_key = "changeme"

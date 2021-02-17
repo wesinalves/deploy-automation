@@ -1,0 +1,9 @@
+# ... existing code ...
+from socket import gethostname, gethostbyname
+
+# ... existing code ...
+
+if os.environ.get('AWS_EXECUTION_ENV'):
+    ALLOWED_HOSTS.append(gethostbyname(gethostname()))
+
+# ... existing code ...
